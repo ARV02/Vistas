@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 
+import com.example.myapplication.Fragment.Llegada2Fragment;
 import com.example.myapplication.Fragment.MainFragment;
 import com.example.myapplication.gastosembarque.ApartadoEventosFragment;
 import com.example.myapplication.gastosembarque.BlankFragment;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        showSelectedFragment(new BlankFragment());
+        showSelectedFragment(new MainFragment());
     }
     private void showSelectedFragment(Fragment fragment) {
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment)
