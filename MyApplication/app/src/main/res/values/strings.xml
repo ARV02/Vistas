@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="title_fragment">COMBUSTIBLE</string>
+    <string name="img_combust">Combustible</string>
+    <string name="imp_gasto">Importe De Gasto</string>
+    <string name="tip_gasto">Tipo De Gasto</string>
+    <string name="boton_terminar">TERMINAR</string>
+
+    <string name="title2">MANIOBRAS</string>
+    <string name="folio">Folio Guía</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

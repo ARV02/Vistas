@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/arimo</item>
+        <item>@font/comfortaa</item>
+        <item>@font/convergence</item>
+        <item>@font/cormorant_unicase_semibold</item>
+    </array>
+</resources>
