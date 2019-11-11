@@ -2,6 +2,7 @@ package com.example.myapplication.Fragment;
 
 
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -62,9 +63,13 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Llegada.setTextColor(Color.parseColor("#ed1c24"));
+                lle.setImageResource(R.mipmap.deliveryred1);
                 Inicio.setTextColor(Color.parseColor("#17134b"));
+                inicio.setImageResource(R.mipmap.delivery2);
                 Fin.setTextColor(Color.parseColor("#17134b"));
+                fin.setImageResource(R.mipmap.delivery3);
                 Salida.setTextColor(Color.parseColor("#17134b"));
+                salida.setImageResource(R.mipmap.delivery4);
                 adapter = new TabAdapter(getChildFragmentManager());
                 adapter.addFragment(new Llegada2Fragment(), "Llegada");
                 adapter.addFragment(new ContactosFragment(), "Contactos");
@@ -85,9 +90,13 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Llegada.setTextColor(Color.parseColor("#17134b"));
+                lle.setImageResource(R.mipmap.delivery1);
                 Inicio.setTextColor(Color.parseColor("#ed1c24"));
+                inicio.setImageResource(R.mipmap.deliveryred2);
                 Fin.setTextColor(Color.parseColor("#17134b"));
+                fin.setImageResource(R.mipmap.delivery3);
                 Salida.setTextColor(Color.parseColor("#17134b"));
+                salida.setImageResource(R.mipmap.delivery4);
             }
         });
     }
@@ -96,9 +105,13 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Llegada.setTextColor(Color.parseColor("#17134b"));
+                lle.setImageResource(R.mipmap.delivery1);
                 Inicio.setTextColor(Color.parseColor("#17134b"));
+                inicio.setImageResource(R.mipmap.delivery2);
                 Fin.setTextColor(Color.parseColor("#ed1c24"));
+                fin.setImageResource(R.mipmap.deliveryred3);
                 Salida.setTextColor(Color.parseColor("#17134b"));
+                salida.setImageResource(R.mipmap.delivery4);
             }
         });
     }
@@ -107,9 +120,13 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Llegada.setTextColor(Color.parseColor("#17134b"));
+                lle.setImageResource(R.mipmap.delivery1);
                 Inicio.setTextColor(Color.parseColor("#17134b"));
+                inicio.setImageResource(R.mipmap.delivery2);
                 Fin.setTextColor(Color.parseColor("#17134b"));
+                fin.setImageResource(R.mipmap.delivery3);
                 Salida.setTextColor(Color.parseColor("#ed1c24"));
+                salida.setImageResource(R.mipmap.deliveryredp4);
             }
         });
     }
