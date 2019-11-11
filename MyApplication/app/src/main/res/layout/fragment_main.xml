@@ -162,7 +162,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="5dp"
-            android:text="DEVOLUCION" />
+            android:text="DEVOLUCION"
+            android:textSize="@dimen/text_size_small_small"/>
 
         <Button
             android:id="@+id/button5"
@@ -170,7 +171,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="125dp"
-            android:text="COBRANZA" />
+            android:text="COBRANZA"
+            android:textSize="@dimen/text_size_small_small"/>
 
         <Button
             android:id="@+id/button6"
@@ -178,12 +180,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="250dp"
-            android:text="ACEPTAR" />
+            android:text="ACEPTAR"
+            android:textSize="@dimen/text_size_small_small"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="250dp"
-            android:text="UBICACION"/>
+            android:text="UBICACION"
+            android:textSize="@dimen/text_size_small_small"/>
 
 
     </androidx.cardview.widget.CardView>
